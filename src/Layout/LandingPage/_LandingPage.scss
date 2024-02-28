@@ -1,0 +1,48 @@
+@import "../../Style/Abstract/variable";
+@import "../../Style/basic/animation";
+.container{
+    background-image: linear-gradient(
+        
+        rgba($color-grey-dark, 0.6),
+        rgba($color-black, 0.63),
+      ) ;
+      clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+      box-shadow: 0 1rem 2rem rgba($color-primary-dark, 0.63);
+  
+      &__Body{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 12rem;
+    margin: 4rem 3rem;
+    }
+    &__heading {
+        font-size: 24px;
+    }
+    
+    &__paragraph{
+        text-align: center;
+        animation: moveInRight 4s ease-in;
+        
+    }
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    ;
+    width: 100%;
+    background-image: linear-gradient(
+    rgba($color-grey-dark, 0.6),
+    rgba($color-black, 0.63),
+  ) ;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%,10% 100%);
+    border-radius: 14px;
+    box-shadow: 0 2rem 4rem black;
+    height: 100vh;
+    &__Html img{
+        width: 50%;
+        color: bisque;
+    }
+}

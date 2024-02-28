@@ -1,0 +1,33 @@
+$color-primary-dark:#369e589d;
+$color-primary-light:#28b485;
+$color-primary-dark1:#0ea972;
+
+$color-secondary-light : #ffb900;
+$color-secondary-dark: #674e40;
+
+$color-tertiary-light:#2998ff;
+$color-tertiary-dark:#5643fa;
+
+$color-dark-green:#0c480c;
+$color-grey-dark:#777;
+$color-grey-dark-1:#333;
+$color-dark-nav:#151111cc;
+
+
+$color-black:#000000;
+$color-white:#ffffff;
+
+$color-grey-light-1:#373333;
+$color-grey-light-2:#9b9b9b;
+
+// FONT
+$default-font-size:16px;
+
+/*GRID*/
+$grid-width:114rem;
+$gutter-vertical:8rem;
+$gutter-horizontal:3rem;
+
+// FONT
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+$font-poppin: 'Poppins', sans-serif;
